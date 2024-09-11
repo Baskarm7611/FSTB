@@ -4,32 +4,32 @@ from logging.handlers import RotatingFileHandler
 
 START_COMMAND_LIMIT = 15  # Default limit for new users
 LIMIT_INCREASE_AMOUNT = 10  # Amount by which the limit is increased after verification
-AUTO_DELETE_DELAY = 600  # Time in seconds after which messages will be deleted (600 seconds = 10 minutes)
+AUTO_DELETE_DELAY = 43200  # Time in seconds after which messages will be deleted (600 seconds = 10 minutes)
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7130558359zEJz_JUK8s5DWzv-bRFiLVrX4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", " ")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22505271"))
+APP_ID = int(os.environ.get("APP_ID", " "))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
+API_HASH = os.environ.get("API_HASH", " ")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002043373014"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", " "))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6695586027"))
+OWNER_ID = int(os.environ.get("OWNER_ID", " "))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "test")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ytdl1:tydl@cluster0.ak7pu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "a18")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://ytdl1:tydl@cluster0.ak7pu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -40,11 +40,11 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 #Shortner (token system) 
 # check my discription to help by using my refer link of shareus.io
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.shareus.io") 
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "PUIAQBIFrydvLhIzAOeGV8yZppu2")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", " ") 
+SHORTLINK_API = os.environ.get("SHORTLINK_API", " ")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/Ultroid_Official/18")
+TUT_VID = os.environ.get("TUT_VID", " ")
 
 
 
