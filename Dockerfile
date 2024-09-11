@@ -6,7 +6,7 @@ FROM python:3.10.6-slim-buster
 # Install required system packages
 RUN apt-get update && \
     apt-get install -y ffmpeg libsm6 libxext6 curl && \
-    apt-get install -y build-essential python3-dev && \
+    apt-get install -y build-essential python3-dev git && \
     apt-get clean
 
 # Set the working directory
