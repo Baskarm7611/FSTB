@@ -64,7 +64,7 @@ except ValueError:
 
 # In your config.py or at the top of your script
 # REQ_JOIN = True  # or False, depending on your requirement
-REQ_JOIN = os.environ.get("REQ_JOIN", True)
+REQ_JOIN = os.environ.get("REQ_JOIN", False)
 
 
 #Force sub message 
